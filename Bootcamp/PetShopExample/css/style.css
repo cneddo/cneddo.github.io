@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700|Raleway:400,600');
+
+body {
+  background-color: #0059b3;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: "Merriweather", serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+li{
+  display: inline-block;
+}
+
+li:hover{
+  background-color: gray;
+}
+img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+.birds {
+    color: purple;
+    font-style: italic;
+    margin: 30px;
+}
+
+.mammals {
+  color: red;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.fish {
+  color: orange;
+  font-weight: bold;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+#firstlist {
+  background-color: pink;
+}
